@@ -4,6 +4,7 @@
  * @property {number} updatedAt the last updated date
  * @property {number} version the latest version number
  * @property {SplinterVersion[]} versions
+ * @property {*} status whatever you want
  */
 
 /**
@@ -152,6 +153,14 @@ class Splinter {
   reset () {
     this.control = null
     this.register()
+  }
+
+  set status(status) {
+    this.control.status = status
+  }
+  
+  get status () {
+    return this.control && this.control.status
   }
 
   set control(control) {
