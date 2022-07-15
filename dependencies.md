@@ -1,5 +1,5 @@
 # Google Apps Script Project: bmSplinter
-This repo (bmSplinter) was automatically updated on 7/6/2022, 1:43:12 PM by GasGit
+This repo (bmSplinter) was automatically updated on 7/15/2022, 11:39:58 AM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -16,7 +16,7 @@ The shared link for [bmSplinter is here](https://script.google.com/d/1GtIQkT6YiD
 *name*|*type*
 --- | --- 
 appsscript| json
-Splinter| server_js
+Tranche| server_js
 Utils| server_js
 ### Directly referenced libraries
 no libraries discovered
